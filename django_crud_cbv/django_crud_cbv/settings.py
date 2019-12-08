@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': 'restapisrinivas>$<rootadmin123',
         'USER': 'restapisrinivas',
         'PASSWORD': 'admin123',
-        'HOST': '3306',
+        'HOST': 'restapisrinivas.mysql.pythonanywhere-services.com',
     }
 }
 

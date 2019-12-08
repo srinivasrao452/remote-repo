@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c00a078-d320-4eca-9011-e79032fc4169" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_crud_cbv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_crud_cbv/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1575608965395" duration="354000" />
       <workItem from="1575699294208" duration="3065000" />
       <workItem from="1575718931826" duration="3984000" />
-      <workItem from="1575801958238" duration="1904000" />
+      <workItem from="1575801958238" duration="2548000" />
     </task>
     <servers />
   </component>
