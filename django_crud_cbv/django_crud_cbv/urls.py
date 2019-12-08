@@ -31,6 +31,8 @@ urlpatterns = [
     path('update/<int:pk>', views.ContactUpdate.as_view(), name='contact_update'),
 
     path('delete/<int:pk>', views.ContactDelete.as_view(), name='contact_delete'),
+
+    path('date/', views.dateView),
 ]
 
 

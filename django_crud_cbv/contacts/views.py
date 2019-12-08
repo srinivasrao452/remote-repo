@@ -22,18 +22,12 @@ class ContactDetail(DetailView):
     # contact   or   object
 
 
-
-
-
 class ContactCreate(CreateView):
     model = Contact
     fields = '__all__'
     # fields = ['name' , 'email']
     # contact_form.html
     # form
-
-
-
 
 
 
@@ -47,3 +41,8 @@ class ContactDelete(DeleteView):
     model = Contact
     success_url = reverse_lazy('contact_list')
 
+
+import datetime as dt
+def dateView(request):
+    date = dt.datetime.now()
+    return render(request,'datetime.html',{'date':date})
