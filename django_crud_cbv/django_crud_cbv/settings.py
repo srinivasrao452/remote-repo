@@ -75,15 +75,25 @@ WSGI_APPLICATION = 'django_crud_cbv.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'django_curd_cbv_db',
+#         'USER' : 'root',
+#         'PASSWORD' : 'root',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_curd_cbv_db',
-        'USER' : 'root',
-        'PASSWORD' : 'root',
+        'NAME': 'restapisrinivas>$<rootadmin123',
+        'USER': 'restapisrinivas',
+        'PASSWORD': 'admin123',
+        'HOST': '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
