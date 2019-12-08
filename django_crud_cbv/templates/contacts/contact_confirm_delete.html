@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Delete</title>
+</head>
+<body>
+
+{% extends 'contacts/base.html' %}
+    {% block body %}
+
+        <h1>Contact Delete?</h1>
+
+        <form  method="post">
+            {% csrf_token %}
+
+            Are you sure you want to delete this contact?
+            <input  type="submit"  value="Delete" class="btn btn-danger" />
+            <a href="/contacts" class="btn btn-warning">Cancel</a>
+
+        </form>
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Update</title>
+</head>
+<body>
+
+{% extends 'contacts/base.html' %}
+    {% block body %}
+
+        <h1>Contact Data</h1>
+
+        <form  method="post">
+            {% csrf_token %}
+
+            <table>
+                {{ form }}
+            </table>
+
+            <input type="submit" value="Submit" class="btn btn-success">
+
+
+
+            {#             {{ form.as_p }}#}
+{#             <input type="submit" class="btn btn-success btn-lg">#}
+
+        </form>
+
+    {% endblock %}
+</body>
+</html>

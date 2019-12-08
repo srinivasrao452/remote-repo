@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<body>
+
+{% extends 'contacts/base.html' %}
+    {% block body %}
+        <h1>Contact Details</h1>
+
+        <p>Name: {{object.name}}</p>
+        <p>Email: {{object.email}}</p>
+        <p>Address: {{object.address}}</p>
+        <p>Phone: {{object.phone}}</p>
+    {% endblock %}
+</body>
+</html>
